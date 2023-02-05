@@ -7,7 +7,7 @@ function diagonalDifference(arr) {
            if( i==j){
                temp1=temp1+arr[i][j];
            }
-           if(i==n-j-1){
+           if(i+j==n-1){
                temp2=temp2+arr[i][j];
            }
         }
